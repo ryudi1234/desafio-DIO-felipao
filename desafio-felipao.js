@@ -7,22 +7,23 @@ if(jogadorNvl <= 1000){
 else if(jogadorNvl > 1000 && jogadorNvl < 2000){
     alert("bronze")
 }
-else if(jogadorNvl > 1000 && jogadorNvl > 2000 && jogadorNvl < 5000){
+else if(jogadorNvl > 2000 && jogadorNvl < 5000){
     alert("prata")
 }
-else if(jogadorNvl > 1000 && jogadorNvl > 2000 && jogadorNvl > 5000 && jogadorNvl < 6000 && jogadorNvl < 7000){
+else if(jogadorNvl > 6000 && jogadorNvl < 7000){
     alert("ouro")
 }
-else if(jogadorNvl > 1000 && jogadorNvl > 2000 && jogadorNvl > 5000 && jogadorNvl > 6000 && jogadorNvl > 7000 && jogadorNvl < 8000){
+else if(jogadorNvl > 7000 && jogadorNvl < 8000){
     alert("platina")
 }
-else if(jogadorNvl > 1000 && jogadorNvl > 2000 && jogadorNvl > 5000 && jogadorNvl > 6000 && jogadorNvl > 7000 && jogadorNvl > 8000 && jogadorNvl < 9000){
+else if(jogadorNvl > 8000 && jogadorNvl < 9000){
     alert("acendente")
 }
-else if(jogadorNvl > 1000 && jogadorNvl > 2000 && jogadorNvl > 5000 && jogadorNvl > 6000 && jogadorNvl > 7000 && jogadorNvl > 8000 && jogadorNvl > 9000 && jogadorNvl < 10000){
+else if(jogadorNvl > 9000 && jogadorNvl < 10000){
     alert("imortal")
 }
-else(jogadorNvl > 1000 && jogadorNvl > 2000 && jogadorNvl > 5000 && jogadorNvl > 6000 && jogadorNvl > 7000 && jogadorNvl > 8000 && jogadorNvl > 9000 && jogadorNvl > 10000);{
+else
+{
     alert("radiante")
 }
 
